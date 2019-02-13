@@ -1,4 +1,4 @@
-function [] = f2(A,b,X)
+function [] = f(A,b,X)
     clf;
     X=[X, X(:,1)]; %copy the first point to the end to close the chain
     Axb = A*X +b;
